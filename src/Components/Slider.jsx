@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import workImg from "../assets/work.jpg";
-import tireImg from "../assets/tire.jpg";
+import blackImg from "../assets/garage.jpg";
 import carupImg from "../assets/carup.jpg";
 
 const slides = [
@@ -13,7 +13,7 @@ const slides = [
     cta: "Book Appointment",
   },
   {
-    image: tireImg,
+    image: blackImg,
     tagline: "Diagnostics • Repairs • Maintenance",
     headline: "Advanced Auto Repairs for All Models",
     href: "#Services",

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 // Importing images
 import work from "../assets/work.jpg";
-import tire from "../assets/tire.jpg";
+import blackImg from "../assets/garage.jpg";
 import carup from "../assets/carup.jpg";
 import oil from "../assets/oil.jpg";
 import engine from "../assets/engine.jpg";
@@ -10,7 +10,7 @@ import tools from "../assets/tools.jpg";
 
 const images = [
   { src: work, alt: "Professional mechanic working on a vehicle" },
-  { src: tire, alt: "Tire replacement service at our workshop" },
+  { src: blackImg, alt: "Mechanic working in our garage" },
   { src: carup, alt: "Car lifted for expert maintenance and inspection" },
   { src: oil, alt: "High-quality oil change service" },
   { src: engine, alt: "Advanced engine diagnostics with modern tools" },
