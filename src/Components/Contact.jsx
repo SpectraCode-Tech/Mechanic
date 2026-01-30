@@ -16,7 +16,8 @@ export default function ContactSection() {
             Contact Our Workshop
           </h2>
           <p className="text-gray-700 dark:text-gray-300 max-w-xl mx-auto">
-            Have questions or need an appointment? Fill out the form below and we’ll get back to you promptly.
+            Have questions or need an appointment? Fill out the form below and
+            we’ll get back to you promptly.
           </p>
         </div>
 
@@ -84,6 +85,25 @@ export default function ContactSection() {
             </button>
           </div>
         </form>
+
+        {/* Embedded Map */}
+        <div className="mt-16 max-w-5xl mx-auto">
+          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-800">
+            <iframe
+              title="Workshop Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.5998289027575!2d-79.73815342508166!3d43.23884907913317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ca337a4af0fe7%3A0x48c01a249815e6da!2sRoyal%20Fix%20Auto%20Repair!5e0!3m2!1sen!2sng!4v1769799709549!5m2!1sen!2sn"
+              width="100%"
+              height="400"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="w-full h-[400px] grayscale-20 hover:grayscale-0 transition duration-300"
+            ></iframe>
+          </div>
+
+          <p className="text-center text-gray-600 dark:text-gray-400 mt-4 text-sm">
+            Visit our workshop location on the map above.
+          </p>
+        </div>
       </div>
     </section>
   );

@@ -67,7 +67,7 @@ export default function Navbar() {
         {/* Logo */}
         <a
           href="#Home"
-          className="text-2xl font-black tracking-tight flex items-center gap-2 group"
+          className="text-sm sm:text-xl font-black sm:tracking-tight flex items-center gap-2 group"
         >
           <span className="text-gray-900 dark:text-white">Royal Fix</span>
           <span className="bg-gradient-to-r from-red-600 to-red-400 bg-clip-text text-transparent group-hover:opacity-80 transition-opacity">
