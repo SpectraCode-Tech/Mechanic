@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // Importing images
-import work from "../assets/work.jpg";
+import work from "../assets/Shop1.jpeg";
 import blackImg from "../assets/garage.jpg";
 import carup from "../assets/carup.jpg";
 import oil from "../assets/oil.jpg";
@@ -9,7 +9,7 @@ import engine from "../assets/engine.jpg";
 import tools from "../assets/tools.jpg";
 
 const images = [
-  { src: work, alt: "Professional mechanic working on a vehicle" },
+  { src: work, alt: "Our workshop" },
   { src: blackImg, alt: "Mechanic working in our garage" },
   { src: carup, alt: "Car lifted for expert maintenance and inspection" },
   { src: oil, alt: "High-quality oil change service" },
@@ -72,7 +72,7 @@ export default function Gallery() {
 
               {/* Overlay */}
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center">
-                <p className="text-white text-sm md:text-lg font-semibold">
+                <p className="text-white text-center text-sm md:text-lg font-semibold">
                   {img.alt}
                 </p>
               </div>
